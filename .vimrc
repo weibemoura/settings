@@ -544,8 +544,8 @@ augroup END
 
 
 " html
-" for html files, 2 spaces
-autocmd Filetype html setlocal ts=2 sw=2 expandtab
+" for html files, 4 spaces
+autocmd Filetype html setlocal ts=4 sw=4 expandtab
 
 
 " javascript
@@ -577,6 +577,9 @@ let g:jedi#rename_command = "<leader>r"
 let g:jedi#show_call_signatures = "0"
 let g:jedi#completions_command = "<C-Space>"
 let g:jedi#smart_auto_mappings = 0
+
+" YouCompleteMe
+let g:ycm_python_binary_path = 'python3'
 
 " syntastic
 let g:syntastic_python_checkers=['python', 'flake8']
