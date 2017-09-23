@@ -581,6 +581,7 @@ let g:jedi#smart_auto_mappings = 0
 " YouCompleteMe
 let g:ycm_python_binary_path = 'python3'
 let g:ycm_server_python_interpreter = 'python3'
+let g:ycm_key_list_stop_completion = ['<Enter>']
 
 " syntastic
 let g:syntastic_python_checkers=['python', 'flake8']
