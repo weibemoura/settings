@@ -47,7 +47,6 @@ Plug 'scrooloose/syntastic'
 Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
-Plug 'valloric/youcompleteme'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -188,7 +187,7 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
-  colorscheme molokai
+  "" colorscheme molokai
 endif
 
 set mousemodel=popup
@@ -577,11 +576,6 @@ let g:jedi#rename_command = "<leader>r"
 let g:jedi#show_call_signatures = "0"
 let g:jedi#completions_command = "<C-Space>"
 let g:jedi#smart_auto_mappings = 0
-
-" YouCompleteMe
-let g:ycm_python_binary_path = 'python3'
-let g:ycm_server_python_interpreter = 'python3'
-let g:ycm_key_list_stop_completion = ['<Enter>']
 
 " syntastic
 let g:syntastic_python_checkers=['python', 'flake8']

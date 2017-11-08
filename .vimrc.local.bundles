@@ -1,0 +1,30 @@
+"*****************************************************************************
+"" Plug install packages
+"*****************************************************************************
+Plug 'valloric/youcompleteme'
+
+" Colors
+Plug 'tomasr/molokai'
+Plug 'archseer/colibri.vim'
+Plug 'nightsense/simplifysimplify'
+Plug 'nightsense/vrunchbang'
+Plug 'Badacadabra/vim-archery'
+
+call plug#end()
+
+"*****************************************************************************
+"" Custom configs
+"*****************************************************************************
+" YouCompleteMe
+let g:ycm_python_binary_path = 'python3'
+let g:ycm_server_python_interpreter = 'python3'
+let g:ycm_key_list_stop_completion = ['<Enter>']
+
+"*****************************************************************************
+"" Visual Settings
+"*****************************************************************************
+let no_buffers_menu=1
+if !exists('g:not_finish_vimplug')
+  set termguicolors
+  colorscheme simplifysimplify-dark
+endif
