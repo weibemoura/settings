@@ -7,8 +7,7 @@ Plug 'valloric/youcompleteme'
 Plug 'tomasr/molokai'
 Plug 'archseer/colibri.vim'
 Plug 'nightsense/simplifysimplify'
-Plug 'nightsense/vrunchbang'
-Plug 'Badacadabra/vim-archery'
+Plug 'dracula/vim'
 
 call plug#end()
 
@@ -26,5 +25,8 @@ let g:ycm_key_list_stop_completion = ['<Enter>']
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
   set termguicolors
-  colorscheme simplifysimplify-dark
+  "" colorscheme molokai
+  "" colorscheme colibri
+  "" colorscheme simplifysimplify-dark
+  colorscheme dracula
 endif
