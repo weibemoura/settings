@@ -1,9 +1,14 @@
 {
+    // vim
     "vim.disableAnnoyingNeovimMessage": true,
+    // editor
     "editor.fontSize": 14,
     "editor.fontFamily": "Monaco",
+    "editor.formatOnSave": true,
+    // theme
     "workbench.colorTheme": "Dracula",
-    "files.autoSave": "afterDelay",
+    // files
+    "files.autoSave": "off",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -13,7 +18,11 @@
         "**/.vscode": true,
         "**/__pycache__": true
     },
+    // python
+    "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
-    "python.linting.flake8Enabled": true
+    "python.linting.flake8Enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.formatting.formatOnSave": true
 }
