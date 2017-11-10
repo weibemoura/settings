@@ -1,0 +1,19 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Monaco",
+    "workbench.colorTheme": "Dracula",
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/__pycache__": true
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.flake8Enabled": true
+}
