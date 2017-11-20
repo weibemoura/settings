@@ -1,6 +1,6 @@
 {
     // vim
-    "vim.disableAnnoyingNeovimMessage": true,
+    //"vim.disableAnnoyingNeovimMessage": true,
     // editor
     "editor.fontSize": 14,
     "editor.fontFamily": "Monaco",
@@ -22,8 +22,11 @@
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
+    //"python.linting.pep8Args": ["--max-line-length=120"],
     "python.linting.flake8Enabled": true,
+    //"python.linting.flake8Args": ["--max-line-length=120"],
     "python.linting.lintOnSave": true,
     "python.formatting.formatOnSave": true,
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": ["--style=google"]
 }
