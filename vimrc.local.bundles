@@ -2,6 +2,7 @@
 "" Plug install packages
 "*****************************************************************************
 Plug 'valloric/youcompleteme'
+Plug 'vim-scripts/bash-support.vim'
 
 " Colors
 Plug 'tomasr/molokai'
