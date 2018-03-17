@@ -1,4 +1,4 @@
-" vim-bootstrap 55985df
+" vim-bootstrap b990cad
 
 "*****************************************************************************
 "" Vim-PLug core
@@ -195,7 +195,7 @@ set number
 
 let no_buffers_menu=1
 if !exists('g:not_finish_vimplug')
-  colorscheme molokai
+  ""colorscheme molokai
 endif
 
 set mousemodel=popup

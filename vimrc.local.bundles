@@ -2,6 +2,7 @@
 "" Plug install packages
 "*****************************************************************************
 Plug 'valloric/youcompleteme'
+Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 Plug 'vim-scripts/bash-support.vim'
 
 " Colors
@@ -19,6 +20,10 @@ call plug#end()
 let g:ycm_python_binary_path = 'python3'
 let g:ycm_server_python_interpreter = 'python3'
 let g:ycm_key_list_stop_completion = ['<Enter>']
+
+" yapf
+"map <C-Y> :call yapf#YAPF()<cr>
+"imap <C-Y> <c-o>:call yapf#YAPF()<cr>
 
 "*****************************************************************************
 "" Visual Settings
