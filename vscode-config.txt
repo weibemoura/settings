@@ -1,11 +1,14 @@
 {
     "git.ignoreLegacyWarning": true,
     // editor
-    "editor.fontSize": 13,
+    "editor.fontSize": 14,
     "editor.fontFamily": "Monaco",
     "editor.fontWeight": "bold",
     "editor.formatOnSave": true,
+    "editor.cursorStyle": "block",
     "html.format.enable": false,
+    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.fontSize": 14,
     // files
     "files.autoSave": "off",
     "files.exclude": {
