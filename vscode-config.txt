@@ -5,7 +5,7 @@
     "editor.fontFamily": "Monaco",
     "editor.fontWeight": "bold",
     "editor.formatOnSave": true,
-    "editor.cursorStyle": "block",
+    //"editor.cursorStyle": "block",
     "html.format.enable": false,
     "terminal.integrated.fontFamily": "Monaco",
     "terminal.integrated.fontSize": 14,
