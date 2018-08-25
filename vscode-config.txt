@@ -21,6 +21,7 @@
     },
     // python
     "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
     "python.linting.pylintEnabled": false,
     "python.linting.pep8Enabled": true,
     "python.linting.pep8Args": [
@@ -30,11 +31,15 @@
     "python.linting.flake8Args": [
         "--max-line-length=79"
     ],
-    "python.linting.lintOnSave": true,
     "python.formatting.provider": "yapf",
     "python.formatting.yapfArgs": [
         "--parallel",
-        "--style={based_on_style:google, column_limit:79, indent_width:4, split_before_logical_operator:false, spaces_before_comment:4}"
+        "--style={based_on_style:pep8, column_limit:79, indent_width:4, split_before_logical_operator:false, spaces_before_comment:4}"
     ],
-    "explorer.confirmDragAndDrop": false
+    "python.formatting.blackArgs": [
+        "--line-length=79",
+        "--safe"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0
 }
