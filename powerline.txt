@@ -2,6 +2,7 @@ mkdir -p ~/.config/fontconfig/conf.d/
 mkdir -p ~/.fonts
 
 mv fonts/PowerlineSymbols.otf ~/.fonts
+mv fonts/Menlo for Powerline.ttf ~/.fonts
 mv fonts/10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 
 fc-cache -vf

@@ -6,7 +6,7 @@
     "editor.fontWeight": "bold",
     "editor.formatOnSave": true,
     "html.format.enable": false,
-    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
     "terminal.integrated.fontSize": 14,
     // files
     "files.autoSave": "off",
