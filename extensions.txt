@@ -8,3 +8,4 @@
 - Css Peek
 - Dracula Theme
 - Docker
+- REST Client
