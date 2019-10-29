@@ -1,0 +1,62 @@
+{
+    "git.ignoreLegacyWarning": true,
+    // editor
+    "editor.fontSize": 14,
+    //"editor.fontFamily": "Monaco",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontWeight": "bold",
+    "editor.formatOnSave": true,
+    "html.format.enable": false,
+    //"terminal.integrated.fontFamily": "Menlo for Powerline",
+    "terminal.integrated.fontSize": 14,
+    // files
+    "files.autoSave": "off",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.venv": true,
+    },
+    // python
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pylintArgs": [
+        "--verbose"
+    ],
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pycodestylePath": "/usr/bin/pep8",
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=120",
+        "--verbose"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/bin/flake8",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--verbose",
+        "--max-complexity=12"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.yapfPath": "/usr/bin/yapf",
+    "python.formatting.yapfArgs": [
+        "--parallel",
+        "--style={based_on_style:pep8, column_limit:120, indent_width:4, split_before_logical_operator:false, spaces_before_comment:4}"
+    ],
+    "python.formatting.blackPath": "/usr/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length=120",
+        "--safe"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "One Dark Pro Vivid",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.renderWhitespace": "all",
+    "workbench.iconTheme": "material-icon-theme"
+}

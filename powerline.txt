@@ -1,8 +1,8 @@
-mkdir -p ~/.config/fontconfig/conf.d/
-mkdir -p ~/.fonts
+mkdir -p /var/cache/fontconfig/conf.d/
+mkdir -p /usr/share/fonts/custom
 
-mv fonts/PowerlineSymbols.otf ~/.fonts
-mv fonts/Menlo for Powerline.ttf ~/.fonts
-mv fonts/10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
+mv fonts/PowerlineSymbols.otf /usr/share/fonts/custom
+mv fonts/Menlo for Powerline.ttf /usr/share/fonts/custom
+mv fonts/10-powerline-symbols.conf /var/cache/fontconfig/conf.d/
 
 fc-cache -vf

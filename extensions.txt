@@ -9,3 +9,6 @@
 - Dracula Theme
 - Docker
 - REST Client
+- Eclipse Keymap
+- Material Icon Theme
+- One Dark Pro
